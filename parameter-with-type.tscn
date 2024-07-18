@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://jjc2sffg3y7s"]
+
+[ext_resource type="PackedScene" uid="uid://y4krhtxy4mfp" path="res://text-name.tscn" id="1_406jf"]
+[ext_resource type="Script" path="res://parameter-with-type.gd" id="1_rbkku"]
+
+[node name="parameter-with-type" type="HBoxContainer"]
+script = ExtResource("1_rbkku")
+
+[node name="parameter1" parent="." instance=ExtResource("1_406jf")]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+placeholder_text = "parameter1"
+
+[node name="type1" parent="." instance=ExtResource("1_406jf")]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+placeholder_text = "type1"
