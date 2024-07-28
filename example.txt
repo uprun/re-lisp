@@ -1,0 +1,23 @@
+(defun
+	_ready
+	()
+	(
+		(
+			(chain
+				(get-node HTTPRequest)
+				(get-field request_completed)
+				(get-field connect)
+			)
+			_on_request_completed
+		)
+		(
+			(chain
+				(get-node HTTPRequest)
+				(get-field request)
+			)
+			(text 
+				https://api.github.com/repos/godotengine/godot/releases/latest
+			)
+		)
+	)
+)

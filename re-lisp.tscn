@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://ckot0cexgv5ks"]
 
 [ext_resource type="PackedScene" uid="uid://bfxhxbf7x7uek" path="res://http_request_example.tscn" id="1_ib2s2"]
-[ext_resource type="PackedScene" uid="uid://cx3rg8agybnyk" path="res://func-decsription.tscn" id="2_lygq7"]
+[ext_resource type="PackedScene" uid="uid://cx3rg8agybnyk" path="res://list.tscn" id="2_lygq7"]
 
 [node name="Lisperanto" type="Node2D"]
 

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://v4lvoidmd1t5"]
+
+[ext_resource type="FontFile" uid="uid://dlso0w0a35mx1" path="res://Hack-Regular.ttf" id="1_h1jyn"]
+
+[sub_resource type="Theme" id="Theme_6ibbq"]
+
+[node name="add-list" type="Button"]
+theme = SubResource("Theme_6ibbq")
+theme_override_fonts/font = ExtResource("1_h1jyn")
+theme_override_font_sizes/font_size = 28
+text = "add list"
