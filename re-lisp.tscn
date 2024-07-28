@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://ckot0cexgv5ks"]
+[gd_scene load_steps=4 format=3 uid="uid://ckot0cexgv5ks"]
 
+[ext_resource type="Script" path="res://re-lisp.gd" id="1_g768o"]
 [ext_resource type="PackedScene" uid="uid://bfxhxbf7x7uek" path="res://http_request_example.tscn" id="1_ib2s2"]
 [ext_resource type="PackedScene" uid="uid://cx3rg8agybnyk" path="res://list.tscn" id="2_lygq7"]
 
 [node name="Lisperanto" type="Node2D"]
+script = ExtResource("1_g768o")
 
 [node name="http-request-example" parent="." instance=ExtResource("1_ib2s2")]
 
